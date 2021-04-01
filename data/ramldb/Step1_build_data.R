@@ -63,6 +63,9 @@ freeR::complete(stock_key)
 ne_stocks <- stock_key %>% 
   filter(region=="US East Coast")
 
+# Export NE stocks
+write.csv(ne_stocks, file.path(outputdir, "RAM_new_england_stocks_used.csv"), row.names=F)
+
 # Build data
 data_ram1 <- timeseries_values_views %>% 
   # Reduce to NE stocks

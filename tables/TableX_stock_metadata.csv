@@ -1,0 +1,26 @@
+"stockid","stocklong","area","comm_name","species","years","nyrs"
+"AMPL5YZ","American plaice Gulf of Maine / Georges Bank","Gulf of Maine / Georges Bank","American plaice","Hippoglossoides platessoides","1980-2013",34
+"BLUEFISHATLC","Bluefish Atlantic Coast","Atlantic Coast","Bluefish","Pomatomus saltatrix","1985-2013",29
+"BSBASSMATLC","Black sea bass Mid-Atlantic Coast","Mid-Atlantic Coast","Black sea bass","Centropristis striata","1990-2014",25
+"CODGB","Atlantic cod Georges Bank","Georges Bank","Atlantic cod","Gadus morhua","1978-2010",33
+"CODGOM","Atlantic cod Gulf of Maine","Gulf of Maine","Atlantic cod","Gadus morhua","1982-2013",32
+"HAD5Y","Haddock Gulf of Maine","Gulf of Maine","Haddock","Melanogrammus aeglefinus","1977-2009",33
+"HADGB","Haddock Georges Bank","Georges Bank","Haddock","Melanogrammus aeglefinus","1981-2012",32
+"HERRNWATLC","Herring Northwestern Atlantic Coast","Northwestern Atlantic Coast","Herring","Clupea harengus","1978-2013",36
+"MENATLAN","Atlantic menhaden Atlantic","Atlantic","Atlantic menhaden","Brevoortia tyrannus","1955-2015",61
+"MONKGOMNGB","Monkfish Gulf of Maine / Northern Georges Bank","Gulf of Maine / Northern Georges Bank","Monkfish","Lophius americanus","1992-2008",17
+"MONKSGBMATL","Monkfish Southern Georges Bank / Mid-Atlantic","Southern Georges Bank / Mid-Atlantic","Monkfish","Lophius americanus","1980-2008",29
+"PANDALGOM","Northern shrimp Gulf of Maine","Gulf of Maine","Northern shrimp","Pandalus borealis","1985-2007",23
+"POLL5YZ","Pollock Gulf of Maine / Georges Bank","Gulf of Maine / Georges Bank","Pollock","Pollachius virens","1970-2008",39
+"SCALL5ZMAB","Sea scallop Georges Bank and Mid-Atlantic Bight","Georges Bank and Mid-Atlantic Bight","Sea scallop","Placopecten magellanicus","1975-2012",38
+"SCUPNWATLC","Scup Northwestern Atlantic Coast","Northwestern Atlantic Coast","Scup","Stenotomus chrysops","1984-2013",30
+"SDOGATLC","Spiny dogfish Atlantic Coast","Atlantic Coast","Spiny dogfish","Squalus acanthias","1990-2004",15
+"SFLOUNMATLC","Summer flounder Mid-Atlantic Coast","Mid-Atlantic Coast","Summer flounder","Paralichthys dentatus","1982-2013",32
+"SURFMATLC","Atlantic surfclam Mid-Atlantic Coast","Mid-Atlantic Coast","Atlantic surfclam","Spisula solidissima","1982-2007",26
+"WHAKEGBGOM","White hake Gulf of Maine / Georges Bank","Gulf of Maine / Georges Bank","White hake","Urophycis tenuis","1978-2013",36
+"WINFLOUN5Z","Winter flounder Georges Bank","Georges Bank","Winter flounder","Pseudopleuronectes americanus","1982-2013",32
+"WINFLOUNSNEMATL","Winter flounder Southern New England /Mid Atlantic","Southern New England /Mid Atlantic","Winter flounder","Pseudopleuronectes americanus","1981-2013",33
+"WITFLOUN5Y","Witch flounder Gulf of Maine","Gulf of Maine","Witch flounder","Glyptocephalus cynoglossus","1982-2013",32
+"YELLCCODGOM","Yellowtail flounder Cape Cod / Gulf of Maine","Cape Cod / Gulf of Maine","Yellowtail flounder","Limanda ferruginea","1985-2013",29
+"YELLGB","Yellowtail flounder Georges Bank","Georges Bank","Yellowtail flounder","Limanda ferruginea","1973-2007",35
+"YELLSNEMATL","Yellowtail flounder Southern New England /Mid Atlantic","Southern New England /Mid Atlantic","Yellowtail flounder","Limanda ferruginea","1981-2013",33

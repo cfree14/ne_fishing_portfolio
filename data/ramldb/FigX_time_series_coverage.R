@@ -22,11 +22,14 @@ data_orig <- readRDS(file.path(outputdir, "RAM_NE_data_w_sst_trimmed_prepped.Rds
 
 # Stats
 stats <- data_orig %>% 
-  group_by(stockid) %>% 
+  group_by(source, stockid) %>% 
   summarize(yr1=min(year),
             yr2=max(year),
             nyr=n()) %>% 
   arrange(yr1)
+
+# By source
+table(stats$source)
 
 # Order data
 data <- data_orig %>% 
