@@ -3,3 +3,7 @@
 .RData
 .Ruserdata
 admin/
+
+# Ignore large data
+data/sst/cobe/raw
+data/sst/oisst/raw

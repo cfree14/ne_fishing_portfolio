@@ -92,11 +92,11 @@ g <- ggplot(data, aes(x=tb_sd, y=sp_sd, fill=sst_c_scaled)) +
   labs(x="Biomass\n(scaled to max biomass)", y='Surplus production\n(scaled to max biomass)') +
   # Legend (points)
   scale_fill_gradient2(name="SST\n(°C, centered)",
-                       mid="white", high="navy", low="darkred") +
+                       mid="white", high="darkred", low="navy") +
   guides(fill = guide_colorbar(ticks.colour = "black", frame.colour = "black", title.hjust = 1)) +
   # Legend (lines)
   scale_color_gradient2(name="SST\n(°C, centered)",
-                       mid="white", high="navy", low="darkred") +
+                       mid="white", high="darkred", low="navy") +
   guides(color = guide_colorbar(ticks.colour = "black", frame.colour = "black")) +
   # Theme
   theme_bw() + my_theme
