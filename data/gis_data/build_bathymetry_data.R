@@ -28,20 +28,13 @@ areas_proj <- areas %>%
 # Format bathymetry data
 ################################################################################
 
-# Format
-bathy <- bathy_orig %>% 
-  # Set CRS
-  # raster::projectRaster(crs="+proj=longlat +datum=NAD83 +no_defs")
-  # Mask
-  raster::mask(mask=areas_proj)
-
+# Crop
 bathy1 <- bathy_orig %>% 
   raster::crop(y=extent(areas_proj))
 
+# Project
 bathy2 <- bathy1 %>% 
   raster::projectRaster(crs="+proj=longlat +datum=NAD83 +no_defs")
-
-
 
 # Plot data
 plot(bathy1)
@@ -50,3 +43,6 @@ plot(bathy2)
 # Export data
 writeRaster(bathy2, filename = file.path(outdir, "NE_bathymetry.tif"))
 
+# If you wanted to mask
+# bathy <- bathy_orig %>% 
+#   raster::mask(mask=areas_proj)
