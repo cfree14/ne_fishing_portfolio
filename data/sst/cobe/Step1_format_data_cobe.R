@@ -14,6 +14,7 @@ outputdir <- "data/sst/cobe/processed"
 plotdir <- "data/sst/cobe/figures"
 
 # Read data
+# Downloaded from: https://psl.noaa.gov/data/gridded/data.cobe.html
 data_orig <- raster::brick(file.path(inputdir, "sst.mon.mean.nc"))
 
 
@@ -26,7 +27,6 @@ raster::plot(data_orig, 1)
 # Format data
 data_mo <- data_orig %>% 
   raster::rotate()
-
 
 # Plot data
 raster::plot(data_mo, 1)
